@@ -88,3 +88,21 @@ There are three types of farming methods we can use: monocropping, intercropping
         </th>
     </tr>
 </table>
+
+---
+Only in certain cases can quadratic programming problems be solved easily using classical problems. In their general sense, they are NP-Hard; a class of problems that is difficult to solve using classical computational methods. In fact, the best classical method to solve these problems involves heuristics, a technique that finds an approximate solution. Quantum Computers have been shown to provide significant speed-up and better scaling for some heuristic problems. The crop-yield problem is a combinatorial problem, in that the solution is a specific combination of input parameters. Though the problem shown here is small enough to solve classically, larger problems become intractable on a classical computer owing to the number of combinations of which to optimize.
+
+
+Solving the above problem using quantum computing involves three components:
+
+1. Defining the problem
+2. Defining the algorithm
+3. Executing the algorithm on a backend
+
+Many problems in Qiskit follow this structure as the algorithm you use can typically be swapped for another without significantly redefining your problem.
+
+----
+
+<img src="quadratic_example.svg" width=512px/>
+
+Shown above is a visualization of a solution to a typical quadratic Optimization problem. 
