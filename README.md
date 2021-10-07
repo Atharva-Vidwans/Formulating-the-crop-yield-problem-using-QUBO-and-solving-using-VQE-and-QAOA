@@ -67,7 +67,7 @@ There are three types of farming methods we can use: monocropping, intercropping
 <table>
     <tr>
         <th>
-        <img src="farm_mono.svg" width="256px"/>
+            <img src="farm_mono.svg" width="256px"/>
         </th>
         <th>
             <img src="farm_intercrop.svg" width="256px"/>
